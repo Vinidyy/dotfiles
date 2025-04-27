@@ -8,12 +8,8 @@ return {
             pane_gap = 16,
             sections = {
                 {
-                    section = "terminal",
-                    cmd = "bash ~/.config/nvim/scripts/animated_neovim_logo.sh",
+                    section = "header",
                     align = "center",
-                    height = 16,
-                    width = 60,
-                    padding = 1,
                     enabled = function()
                         return not (vim.o.columns > 135)
                     end,
