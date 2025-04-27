@@ -1,2 +1,2 @@
 vim.g.mapleader = " "
-vim.keymap.set("n", "<leader>e", vim.cmd.Neotree)
+vim.keymap.set("n", "<leader>e", vim.cmd.Neotree, { desc = 'Open Neotree' })
