@@ -39,8 +39,13 @@ alias lt='ls --tree'
 alias vim="nvim"
 alias ydl="yt-dlp"
 alias uni="cd /home/vinci/Nextcloud/Uni"
-alias nvconf="nvim /home/vinci/.config/nvim"
+alias nvconf="nvim /home/vinci/dotfiles/nvim/.config/nvim/"
 
+# functions for gimmics
+
+huh() {
+  gh copilot explain "$*"
+}
 # Set-up FZF key bindings (CTRL R for fuzzy history finder)
 source <(fzf --zsh)
 
