@@ -76,3 +76,6 @@ vim.keymap.set("n", "<leader>bp", "<cmd>bprevious<cr>", { desc = "Prev Buffer" }
 vim.keymap.set("n", "<leader>fm", function()
     vim.lsp.buf.format({ async = true })
 end, { desc = "Format File" })
+
+-- fzf
+vim.keymap.set("n", "<leader><space>", "<cmd>Telescope find_files<cr>", { desc = "Find Files" })
