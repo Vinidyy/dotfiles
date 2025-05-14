@@ -18,6 +18,7 @@ plugins=(
     zsh-autosuggestions
     zsh-syntax-highlighting
     zsh-interactive-cd
+    vi-mode
 )
 
 source ~/.zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh
