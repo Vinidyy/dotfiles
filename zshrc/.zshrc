@@ -46,7 +46,7 @@ alias vim="nvim"
 alias ydl="yt-dlp"
 alias uni="cd /home/vinci/Nextcloud/Uni"
 alias nvconf="nvim /home/vinci/dotfiles/nvim/.config/nvim/"
-
+alias sshc="ssh colorful@217.154.24.98"
 # functions for gimmics
 
 huh() {
