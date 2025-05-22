@@ -61,3 +61,6 @@ SAVEHIST=10000
 setopt appendhistory
 
 eval "$(starship init zsh)"
+
+# Created by `pipx` on 2025-05-14 21:36:48
+export PATH="$PATH:/home/vinci/.local/bin"
